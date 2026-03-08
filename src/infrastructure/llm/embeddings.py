@@ -23,7 +23,6 @@ def get_defailt_embedding(
 
     embedding_kwargs: dict[str, Any] = dict(
         model = EMBEDDING_MODEL,
-        show_progress = show_progress,
         **kwargs
     )
 
